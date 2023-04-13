@@ -1,0 +1,95 @@
+/**** Hash Map */
+
+Hash.put(key, value);
+
+Map.put(key, map.getValueOrDefault(key, 0) + 1)
+
+// check if two hashmaps equal
+myMap.equal(myMapB)
+
+
+// check if key exists
+myMap.containsKey(key)
+
+
+/***
+hashmap get keyset
+ */
+ myMap.keySet() --> retuns Set
+ for(String key: myMap.keySet()) {System.out.println( key)}
+
+
+/** get values as an array HashMap */
+new ArrayList(myMap.values())
+
+
+
+/******* Hashset */
+/******
+**************************8
+ */
+
+Set<Integer> mySet = new HashSet<>();
+
+/**  */
+mySet.contains(element);
+
+/*** */
+mySet.add(element);
+
+
+sET<Integer> mysEt = Set.of(myArray)
+
+
+/*****
+*
+***  Arrays
+****
+**** */
+
+char[] myCharArr = String.toCharArray();
+
+
+
+/*** strings: ehck if number */
+string.isDigit()
+
+/*** string: check if character */
+string.isLetter()
+
+/*** string: check if character or String */
+string.isLetterOrDigit();
+
+//** to lower-case */
+string.toLowerCase();
+
+/*** to Upper case */
+string.toUpperCase();
+
+/**** int array to STring */
+String myString = new String(Arrays.toString(myIntArray))
+
+
+/***** String builder */
+StringBuilder sb = new StringBuilder();
+
+sb.append()
+
+/** STring to Integer */
+Integer.valueOf(string)
+
+/** Integer to String */
+Integer.toString(intValue)
+
+
+
+
+/****
+Java Stack -->
+ */
+
+Stack<Integer> inputStack = new Stack();
+
+
+/** Array sort Java */
+Arrays.sort(arary)
